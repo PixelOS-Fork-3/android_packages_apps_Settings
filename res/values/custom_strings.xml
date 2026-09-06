@@ -408,4 +408,5 @@
 
     <!-- Pixel Maintainer -->
     <string name="custom_maintainer">Maintainer</string>
+    <string name="custom_maintainer_purpose">Shows the device maintainer for this PixelOS build</string>
 </resources>
