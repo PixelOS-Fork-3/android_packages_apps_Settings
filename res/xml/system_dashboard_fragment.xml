@@ -170,6 +170,13 @@
             settings:controller="com.android.settings.users.MultiUserPreferenceController"/>
 
         <Preference
+            android:key="spoofing_settings"
+            android:title="@string/spoofing_title"
+            android:summary="@string/spoofing_summary"
+            android:icon="@drawable/ic_spoofing"
+            android:fragment="com.android.settings.development.spoof.SpoofingSettings" />
+
+        <Preference
             android:key="icon_manager"
             android:title="@string/icon_manager_title"
             android:summary="@string/icon_manager_summary"
