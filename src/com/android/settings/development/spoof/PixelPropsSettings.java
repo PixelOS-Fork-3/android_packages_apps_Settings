@@ -125,7 +125,7 @@ public class PixelPropsSettings extends DashboardFragment implements DeveloperOp
             new BaseSearchIndexProvider(R.xml.pixel_props_settings) {
                 @Override
                 protected boolean isPageSearchEnabled(android.content.Context context) {
-                    return DevelopmentSettingsEnabler.isDevelopmentSettingsEnabled(context);
+                    return true;
                 }
             };
 }

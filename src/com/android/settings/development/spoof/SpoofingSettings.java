@@ -160,7 +160,7 @@ public class SpoofingSettings extends DashboardFragment implements DeveloperOpti
             new BaseSearchIndexProvider(R.xml.spoofing_settings) {
                 @Override
                 protected boolean isPageSearchEnabled(android.content.Context context) {
-                    return DevelopmentSettingsEnabler.isDevelopmentSettingsEnabled(context);
+                    return true;
                 }
             };
 }

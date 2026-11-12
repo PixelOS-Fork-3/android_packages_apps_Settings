@@ -215,7 +215,7 @@ public class TrickyStoreSettings extends DashboardFragment implements DeveloperO
             new BaseSearchIndexProvider(R.xml.trickystore_settings) {
                 @Override
                 protected boolean isPageSearchEnabled(android.content.Context context) {
-                    return DevelopmentSettingsEnabler.isDevelopmentSettingsEnabled(context);
+                    return true;
                 }
             };
 }

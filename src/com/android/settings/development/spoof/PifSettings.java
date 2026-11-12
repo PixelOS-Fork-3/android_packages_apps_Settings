@@ -365,7 +365,7 @@ public class PifSettings extends DashboardFragment implements DeveloperOptionAwa
             new BaseSearchIndexProvider(R.xml.pif_settings) {
                 @Override
                 protected boolean isPageSearchEnabled(android.content.Context context) {
-                    return DevelopmentSettingsEnabler.isDevelopmentSettingsEnabled(context);
+                    return true;
                 }
             };
 }
